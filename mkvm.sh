@@ -32,7 +32,7 @@ sudo apt install -y cloud-image-utils &> /dev/null
 echo ""
 
 echo "Wget UbuntuARM Image... (Its will takes few minutes)"
-wget -O ubuntuARM.img http://ubuntutym2.u-toyama.ac.jp/cloud-images/releases/18.04/release/ubuntu-18.04-server-cloudimg-arm64.img &> /dev/null
+wget -O ubuntuARM.img http://ubuntutym2.u-toyama.ac.jp/cloud-images/releases/20.10/release/ubuntu-20.10-server-cloudimg-arm64.img &> /dev/null
 echo "Wget QemuEFI file..."
 wget https://releases.linaro.org/components/kernel/uefi-linaro/latest/release/qemu64/QEMU_EFI.fd &> /dev/null
 
